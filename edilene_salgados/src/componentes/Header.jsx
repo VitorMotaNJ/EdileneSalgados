@@ -1,5 +1,5 @@
 import Styles from './css/Header.module.css'
-import fundo_header from '../assets/img/fundo_header_salgados.jpg'
+import fundo_header from '../assets/img/salgadosVariados5.png'
 
 function Header(){
   return(
