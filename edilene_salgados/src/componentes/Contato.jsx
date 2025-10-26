@@ -1,5 +1,5 @@
-import contatoImg from "../assets/img/logoBlack.jpeg"; 
-import { Phone, Clock, MapPin } from "lucide-react";
+import contatoImg from "../assets/img/logoBlack.jpeg";
+import { Phone, Clock, MapPin, Instagram } from "lucide-react";
 
 function Contato() {
   return (
@@ -31,7 +31,7 @@ function Contato() {
               <div>
                 <h3 className="font-semibold text-gray-800">Atendimento</h3>
                 <p className="text-gray-600">
-                  Entrega e retirada em São Paulo e região
+                  Entrega e retirada em Guaianases e região
                 </p>
               </div>
             </div>
@@ -49,17 +49,29 @@ function Contato() {
             </div>
           </div>
 
-          <a
-            href="https://wa.me/5511975540523"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-red-500 text-white font-medium mt-8 px-6 py-3 rounded-md hover:bg-red-600 transition"
-          >
-            Fale conosco no WhatsApp
-          </a>
+          <div className="flex flex-wrap gap-4 mt-8">
+            <a
+              href="https://wa.me/5511975540523"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white font-medium px-6 py-3 rounded-md transition shadow-md"
+            >
+              <Phone size={20} />
+              WhatsApp
+            </a>
+
+            <a
+              href="https://www.instagram.com/edilenesalgadosvvh/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-pink-500 hover:bg-pink-600 text-white font-medium px-6 py-3 rounded-md transition shadow-md"
+            >
+              <Instagram size={20} />
+              Instagram
+            </a>
+          </div>
         </div>
 
-        {/* Lado direito */}
         <div className="flex justify-center">
           <img
             src={contatoImg}
@@ -69,7 +81,6 @@ function Contato() {
         </div>
       </div>
 
-      {/* Rodapé */}
       <div className="bg-red-500 text-center text-white py-8 mt-16">
         <h3 className="text-2xl font-bold mb-2">EDILENE SALGADOS</h3>
         <p className="text-sm opacity-90 mb-3">
