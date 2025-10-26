@@ -29,7 +29,7 @@ function Avaliacoes() {
     <section id="avaliacoes" className="py-20 bg-white">
       <div className="max-w-5xl mx-auto px-4 text-center">
         <h2 className="text-4xl font-extrabold text-red-500 mb-4">
-          O que Nossos Clientes Dizem 🥰
+          O que nossos clientes dizem 🥰
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-10">
           Veja algumas das avaliações deixadas por nossos clientes no iFood.
