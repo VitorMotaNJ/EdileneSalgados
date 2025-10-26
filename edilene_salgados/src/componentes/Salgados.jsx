@@ -1,14 +1,21 @@
+import salgadosVariados1 from "../assets/img/salgadosVariados1.png";
+import salgadosVariados2 from "../assets/img/salgadosVariados2.png";
+import salgadosVariados3 from "../assets/img/salgadosVariados3.png";
+import salgadosVariados4 from "../assets/img/salgadosVariados4.png";
+import salgadosCarne from "../assets/img/salgadosCarne.png";
+import salgadosChurros from "../assets/img/salgadosChurros.png";
+
 function Salgados() {
   const images = [
-    "/src/assets/img/salgadosVariados1.png",
-    "/src/assets/img/salgadosVariados2.png",
-    "/src/assets/img/salgadosVariados3.png",
-    "/src/assets/img/salgadosVariados4.png",
-    "/src/assets/img/salgadosCarne.png",
-    "/src/assets/img/salgadosChurros.png",
+    salgadosVariados1,
+    salgadosVariados2,
+    salgadosVariados3,
+    salgadosVariados4,
+    salgadosCarne,
+    salgadosChurros,
   ];
 
-  const fallback = "/src/assets/img/salgadosVariados1.png";
+  const fallback = salgadosVariados1;
 
   return (
     <section className="py-16 bg-linear-to-b from-yellow-50 to-white">
@@ -32,7 +39,9 @@ function Salgados() {
                 <img
                   src={src}
                   alt={`Foto de salgados ${i + 1}`}
-                  onError={(e) => { e.currentTarget.src = fallback; }}
+                  onError={(e) => {
+                    e.currentTarget.src = fallback;
+                  }}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
