@@ -4,7 +4,7 @@ function Pedido() {
   return (
     <section id='pedido' className="py-20 bg-yellow-50">
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="text-4xl font-extrabold text-yellow-700 mb-4">
+        <h2 className="text-4xl font-extrabold text-red-500 mb-4">
           Faça Seu Pedido
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-10">

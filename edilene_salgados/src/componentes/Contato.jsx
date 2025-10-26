@@ -51,7 +51,7 @@ function Contato() {
 
           <div className="flex flex-wrap gap-4 mt-8">
             <a
-              href="https://wa.me/5511975540523"
+              href="https://wa.me/5511975540523?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido%20de%20salgados."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white font-medium px-6 py-3 rounded-md transition shadow-md"
