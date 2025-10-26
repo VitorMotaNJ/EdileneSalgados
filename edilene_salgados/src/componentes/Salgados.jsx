@@ -48,10 +48,6 @@ function Salgados() {
             </div>
           ))}
         </div>
-
-        <div className="mt-12 text-center text-gray-500 text-sm">
-          <p>Feitos com ingredientes selecionados e muito carinho ❤️</p>
-        </div>
       </div>
     </section>
   );
