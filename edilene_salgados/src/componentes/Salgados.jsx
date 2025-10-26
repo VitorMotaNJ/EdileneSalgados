@@ -11,7 +11,7 @@ function Salgados() {
   const fallback = "/src/assets/img/salgadosVariados1.png";
 
   return (
-    <section className="py-16 bg-gradient-to-b from-yellow-50 to-white">
+    <section className="py-16 bg-linear-to-b from-yellow-50 to-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-10">
           <h2 className="text-4xl md:text-5xl font-extrabold text-yellow-700 mb-3">
