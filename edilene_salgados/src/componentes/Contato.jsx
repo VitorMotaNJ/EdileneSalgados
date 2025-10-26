@@ -76,7 +76,7 @@ function Contato() {
           <img
             src={contatoImg}
             alt="Edilene Salgados"
-            className="rounded-2xl shadow-lg object-cover max-w-sm"
+            className="rounded-2xl shadow-lg object-cover max-w-[350px] h-auto"
           />
         </div>
       </div>

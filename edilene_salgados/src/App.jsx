@@ -10,13 +10,13 @@ import './index.css'
 function App() {
 
   return (
-    <div className='w-full bg-amber-100 flex flex-col '>
+    <main className='w-full bg-amber-100 flex flex-col '>
       <Header />
       <Salgados />
       <Avaliacoes />
       <Pedido />
       <Contato /> 
-    </div>
+    </main>
 
   )
 }

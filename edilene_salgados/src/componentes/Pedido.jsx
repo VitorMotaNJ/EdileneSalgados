@@ -1,4 +1,4 @@
-import { MapPin, Phone, Truck, Utensils, Instagram, ShoppingBag } from "lucide-react";
+import { MapPin, Phone, Truck, Utensils, Instagram, ShoppingBag, UtensilsCrossed  } from "lucide-react";
 
 function Pedido() {
   return (
@@ -46,7 +46,6 @@ function Pedido() {
           </button>
         </div>
 
-        {/* Blocos de informações */}
         <div className="grid md:grid-cols-3 gap-8 mt-10 text-left">
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <div className="bg-yellow-100 text-yellow-600 p-4 rounded-full mb-4">
@@ -54,17 +53,17 @@ function Pedido() {
             </div>
             <h3 className="text-lg font-semibold text-gray-800">Localização</h3>
             <p className="text-gray-600">
-              Entrega e retirada em Guaianases e região.
+              Atendemos em Guaianases e região.
             </p>
           </div>
 
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <div className="bg-yellow-100 text-yellow-600 p-4 rounded-full mb-4">
-              <Truck size={28} />
+              <UtensilsCrossed size={28} />
             </div>
-            <h3 className="text-lg font-semibold text-gray-800">Entrega Rápida</h3>
+            <h3 className="text-lg font-semibold text-gray-800">Encomendas</h3>
             <p className="text-gray-600">
-              Trabalhamos com agendamento e entregas pontuais para o seu evento.
+              Trabalhamos com encomendas para o seu evento.
             </p>
           </div>
 
