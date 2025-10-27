@@ -4,3 +4,7 @@
 
 Site desenvolvido para entrega do projeto UC3 "Corre da quebrada" feito no durante o curso Proprofissão do instituto Proa
 
+## Acesse o site:
+
+[Visite o site da Edilene Salgados](https://edilene-salgados.vercel.app/)
+
