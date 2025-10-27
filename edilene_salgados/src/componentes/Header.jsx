@@ -4,7 +4,7 @@ import { Phone } from "lucide-react";
 
 function Header(){
   return(
-    <header style={{backgroundImage: `url(${fundo_header})` }} className=' relative w-full h-[500px] flex justify-center flex-col bg-cover bg-center bg-no-repeat'>
+    <header style={{backgroundImage: `url(${fundo_header})` }} className=' relative w-full h-[500px] flex justify-center flex-col bg-cover bg-center bg-no-repeat bg-fixed'>
 
       <div className='absolute inset-0 bg-black/25 z-10'></div>
       <div className='text-center z-20'  >

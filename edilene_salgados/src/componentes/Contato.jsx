@@ -3,7 +3,7 @@ import { Phone, Clock, MapPin, Instagram } from "lucide-react";
 
 function Contato() {
   return (
-    <section className="py-16 bg-[#fff8f5]">
+    <section className=" bg-[#fff8f5]">
       <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 items-center gap-10">
         <div>
           <h2 className="text-4xl font-extrabold text-gray-900 mb-4">
