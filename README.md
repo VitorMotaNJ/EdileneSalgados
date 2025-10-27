@@ -1,8 +1,6 @@
 # Projeto UC3: Corre da Quebrada
 
-<div align="center">
-  <img src="./screenshots/screenshot1.png" alt="Screenshot do site Corre da Quebrada" width="1000"/>
-</div>
+![Screenshot 1](./screenshots/screenshot1.png)
 
 ## Sobre o projeto
 Site desenvolvido como parte da **entrega do projeto UC3 — "Corre da Quebrada"**, realizado durante o curso **ProProfissão** do **Instituto PROA**.  
