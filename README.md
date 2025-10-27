@@ -1,2 +1,2 @@
-# Corre da quebrada
-Site desenvolvido para entrega para o projeto "Corre da quebrada" do curso Proprofissão do instituto Proa
+# Projeto Corre da quebrada
+Site desenvolvido para entrega do projeto UC3 "Corre da quebrada" feito no durante o curso Proprofissão do instituto Proa
