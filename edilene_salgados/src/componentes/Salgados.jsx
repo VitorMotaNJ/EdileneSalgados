@@ -5,7 +5,7 @@ import salgadosVariados4 from "../assets/img/salgadosVariados4.png";
 import salgadosCarne from "../assets/img/salgadosCarne.png";
 import salgadosChurros from "../assets/img/salgadosChurros.png";
 
-import { Phone, Clock, MapPin, Instagram, Facebook } from "lucide-react";
+import { Phone, Instagram, Facebook, Utensils } from "lucide-react";
 
 function Salgados() {
   const images = [
@@ -78,6 +78,15 @@ function Salgados() {
             >
               <Facebook size={20} />
               Facebook
+            </a>
+            <a
+              href="https://www.ifood.com.br/delivery/sao-paulo-sp/edilene-salgados-jardim-sao-paulozona-leste/eee10034-3d7d-4ba6-a726-41b484f6efc4"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white font-semibold px-10 py-3 rounded-lg transition shadow-md"
+            >
+              <Utensils size={20} />
+              iFood
             </a>
           </div>
       </div>

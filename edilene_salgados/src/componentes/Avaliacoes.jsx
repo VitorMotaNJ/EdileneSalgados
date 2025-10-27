@@ -12,7 +12,7 @@ import avaliacao9 from "../assets/img/avaliacao9.jpeg";
 import avaliacao10 from "../assets/img/avaliacao10.jpeg";
 import avaliacao11 from "../assets/img/avaliacao11.jpeg";
 
-import { Phone, Clock, MapPin, Instagram, Facebook } from "lucide-react";
+import { Phone, Instagram, Facebook, Utensils } from "lucide-react";
 
 function Avaliacoes() {
   const avaliacoes = [avaliacao1, avaliacao2, avaliacao3, avaliacao4, avaliacao5, avaliacao6, avaliacao7, avaliacao8, avaliacao9, avaliacao10, avaliacao11];
@@ -100,6 +100,15 @@ function Avaliacoes() {
             >
               <Facebook size={20} />
               Facebook
+            </a>
+            <a
+              href="https://www.ifood.com.br/delivery/sao-paulo-sp/edilene-salgados-jardim-sao-paulozona-leste/eee10034-3d7d-4ba6-a726-41b484f6efc4"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white font-semibold px-10 py-3 rounded-lg transition shadow-md"
+            >
+              <Utensils size={20} />
+              iFood
             </a>
           </div>
     </section>

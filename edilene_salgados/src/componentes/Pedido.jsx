@@ -1,4 +1,4 @@
-import { MapPin, Phone, Truck, Utensils, Instagram, ShoppingBag, UtensilsCrossed  } from "lucide-react";
+import { MapPin, Phone, Utensils, ShoppingBag, UtensilsCrossed  } from "lucide-react";
 
 function Pedido() {
   return (
@@ -27,10 +27,10 @@ function Pedido() {
 
 
           <a
-            href="https://shre.ink/kAIZ"
+            href="https://www.ifood.com.br/delivery/sao-paulo-sp/edilene-salgados-jardim-sao-paulozona-leste/eee10034-3d7d-4ba6-a726-41b484f6efc4"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-3 rounded-lg transition shadow-md"
+            className="flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white font-semibold px-10 py-3 rounded-lg transition shadow-md"
           >
             <Utensils size={20} />
             iFood
