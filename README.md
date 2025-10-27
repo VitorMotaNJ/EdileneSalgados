@@ -1,4 +1,4 @@
-# Projeto Corre da quebrada
+# Projeto UC3: Corre da Quebrada.
 
 ![Screenshot 1](./screenshots/screenshot1.png)
 
