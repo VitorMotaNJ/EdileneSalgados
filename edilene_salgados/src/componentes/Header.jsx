@@ -1,4 +1,5 @@
 import fundo_header from '../assets/img/salgadosVariados5.png'
+import contatoImg from "../assets/img/logoBlack.jpeg";
 import { Phone } from "lucide-react";
 
 
@@ -8,6 +9,13 @@ function Header(){
 
       <div className='absolute inset-0 bg-black/25 z-10'></div>
       <div className='text-center z-20'  >
+        <div className="flex justify-center">
+          <img
+            src={contatoImg}
+            alt="Edilene Salgados"
+            className="rounded-2xl shadow-lg object-cover max-w-[150px] h-auto"
+          />
+        </div>
         <h1 className='text-6xl text-white font-extrabold'>EDILENE SALGADOS</h1>
         <p className='text-2xl mt-4 text-white'>Salgados deliciosos e fresquinhos para sua festa ou evento!</p>
         <div className='flex mt-5 justify-center gap-6'>
