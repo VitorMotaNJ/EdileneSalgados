@@ -1,10 +1,23 @@
-# Projeto UC3: Corre da Quebrada.
+# Projeto UC3: Corre da Quebrada
 
-![Screenshot 1](./screenshots/screenshot1.png)
+<div align="center">
+  <img src="./screenshots/screenshot1.png" alt="Screenshot do site Corre da Quebrada" width="1000"/>
+</div>
 
-Site desenvolvido para entrega do projeto UC3 "Corre da quebrada" feito no durante o curso Proprofissão do instituto Proa
+## Sobre o projeto
+Site desenvolvido como parte da **entrega do projeto UC3 — "Corre da Quebrada"**, realizado durante o curso **ProProfissão** do **Instituto PROA**.  
 
-## Acesse o site:
+---
 
-[Visite o site da Edilene Salgados](https://edilene-salgados.vercel.app/)
+## Acesse o site
+[**Visite o site da Edilene Salgados**](https://edilene-salgados.vercel.app/)
+
+---
+
+## Tecnologias utilizadas
+- **HTML5**
+- **CSS3 / TailwindCSS**
+- **JavaScript**
+- **React + Vite**
+- **Vercel** (deploy)
 
